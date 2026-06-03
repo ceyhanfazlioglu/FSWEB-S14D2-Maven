@@ -1,6 +1,6 @@
-import org.example.model.*;
-import org.example.model.enums.LampType;
-import org.example.model.enums.PaintColor;
+import org.example.model.Bed;
+import org.example.enums.LampType;
+import org.example.enums.PaintColor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.instanceOf;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import org.example.model.*;
+import org.example.enums.LampType;
+import org.example.enums.PaintColor;
 @ExtendWith(ResultAnalyzer.class)
 public class MainTest {
 
